@@ -73,16 +73,16 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "KAVI-EXE=" + string_session;
+                        let md = "MR-NADUWA=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                         let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 ᴋᴀᴠɪ ᴇxᴇ 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/VajiraTech/VAJIRA-MD`;
+                         let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 𝙼𝚁.𝙽𝙰𝙳𝚄𝚆𝙰-𝚅1 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/mrnaduwav4/MR.NADUWA-V1.git`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴋᴀᴠɪ ᴇxᴇ",
-thumbnailUrl: "https://telegra.ph/file/b5188c088f644ddaed08f-cab742314ceb6d1074.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb22FT9HFxOzBtWOwT0X",
+title: "𝙼𝚁.𝙽𝙰𝙳𝚄𝚆𝙰-𝚅1",
+thumbnailUrl: "https://files.catbox.moe/iclcf6.jpeg",
+sourceUrl: "https://whatsapp.com/channel/0029VayEdjwDDmFYDraeTv2f",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -91,14 +91,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 ᴋᴀᴠɪ ᴇxᴇ 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/ayooh-us/Pink-Venom-MD`;
+                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 𝙼𝚁 𝙽𝙰𝙳𝚄𝚆𝙰-𝚅1 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/mrnaduwav4/MR.NADUWA-V1.git`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴠᴀᴊɪʀᴀ-ᴍᴅ",
-thumbnailUrl: "https://telegra.ph/file/b5188c088f644ddaed08f-cab742314ceb6d1074.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb22FT9HFxOzBtWOwT0X",
+title: "𝙼𝚁.𝙽𝙰𝙳𝚄𝚆𝙰-𝚅1",
+thumbnailUrl: "https://files.catbox.moe/iclcf6.jpeg",
+sourceUrl: "https://whatsapp.com/channel/0029VayEdjwDDmFYDraeTv2f",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
